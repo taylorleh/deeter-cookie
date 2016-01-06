@@ -1,8 +1,3 @@
-[![Travis][build-badge]][build]
-[![npm package][npm-badge]][npm]
-[![Coveralls][coveralls-badge]][coveralls]
-[![Discord][discord-badge]][discord]
-
 Deeter Cookies
 
 
