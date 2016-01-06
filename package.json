@@ -1,0 +1,43 @@
+{
+  "name": "deeter-cookie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack-dev-server --hot --inline --config webpack.config.js --content-base build/",
+    "lint": "jshint --reporter=node_modules/jshint-stylish app/ || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taylorleh/deeter-cookie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taylorleh/deeter-cookie/issues"
+  },
+  "homepage": "https://github.com/taylorleh/deeter-cookie#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.1.0",
+    "jsx-loader": "^0.13.2",
+    "nodeadmin": "^0.1.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
